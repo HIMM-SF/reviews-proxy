@@ -1,0 +1,24 @@
+{
+  "name": "review-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Minho Cha",
+  "license": "",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-modal": "^3.11.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1"
+  }
+}

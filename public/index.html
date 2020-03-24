@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reviews-proxy</title>
+</head>
+<body>
+    <div id="property">
+        <script src="http://localhost:5000/bundle.js"></script>
+    </div>
+    <div id="review">
+        <script src="http://localhost:4000/bundle.js"></script>
+    </div>
+    <script>
+        ReactDOM.render(
+        React.createElement(Reviews),
+        document.getElementById('review')
+      );
+        ReactDOM.render(
+        React.createElement(Property),
+        document.getElementById('property')
+      );
+    </script>
+</body>
+</html>
